@@ -1,0 +1,61 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Crystal Collector</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Open+Sans+Condensed:300|Shadows+Into+Light" rel="stylesheet">
+
+    <!-- jQUERY FILE -->
+    <script tyep="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+</head>            
+<body>
+    <div class="header text-center">
+        <h1>CRYSTAL COLLECTOR</h1>
+        <h3>MAGIC NUMBER:</h3>
+        <!-- <h3 id="magicNumber"></h3> -->
+            </div>
+
+        <p id="result"></p>
+<div class="crystalContainer">
+    <div class="crystals">
+    </div>
+</div>
+    <br>
+    <br>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 paragraph">
+            <p>You will be given a magic number at the start of the game.</p>
+            <p>There are four crystals above. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <P>You win the game by matching your total score to the magic number, you lose the game if your total score goes above the random number.</P>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+
+    </div>
+    <div class="scoreContainer">
+
+            <p id="score"></p>
+    </div>
+    <div class="winsLossesContainer">
+        <p id="wins">WINS: <span id="wins"></span></p>
+        <p id="losses">LOSSES: <span id="losses"></span></p>      
+    </div>
+    
+</div>
+
+
+
+<!-- JAVASCRIPT FILE -->
+<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>

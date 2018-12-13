@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+/* BACKGROUND IMAGE */
+body {
+    background: url(../images/geo.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+/* HEADER INFO */
+.header {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 32px;
+}
+/* CRYSTAL CONTAINER INFO */
+.crystalContainer {
+    width: 80%;
+    margin: auto;
+    /* display: flex; */
+}
+/* CRYSTALS DIV */
+.crystals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* CRYSTAL IMAGES INFO */
+.crystal {
+    height: 250px;
+    width: 250px;
+    /* background-image: url("../images/crystal1.png");     // ADDITIONAL IMAGE FOR IMAGE 1 I AM UNABLE TO GET TO WORK*/
+    /* background-image: url("../images/crystal2.png");     // ADDITIONAL IMAGE FOR IMAGE 2 I AM UNABLE TO GET TO WORK*/
+    /* background-image: url("../images/crystal3.png");     // ADDITIONAL IMAGE FOR IMAGE 3 I AM UNABLE TO GET TO WORK*/
+    background-image: url("../images/crystal4.png");
+    background-size: cover;
+    background-position: right center;
+}
+/* SPECIAL EFFECTS WHEN HOVERING OVER CRYSTALS */
+.crystal:hover {
+    cursor: grabbing;
+    transform: translate(5px,10px)
+}
+/* PARAGRAPH INFO */
+.paragraph {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: 2px 2px #ECECEC;
+    line-height: 8px;
+}
+/* RESULTS INFO CONTAINER */
+.scoreContainer, .winsLossesContainer {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 34px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+/* RESULT INFOR | BOTTOM OF PAGE */
+#result {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 34px;
+}
