@@ -26,12 +26,6 @@ var startAndResetGame = function () {
             crystal.attr({
                 "class": 'crystal', "dataRandom": random
             });
-            // crystal.css({
-            //     "background-image":"url('" + images[i] + "')",
-            //     "background-size":"cover"
-            // });
-            // GIVES ME THE NUMBER IN THE CRYSTAL BOX // DELETE THIS
-            // crystal.html(random); HIDE THE NUMBERS IN THE CRYSTAL BOX // DELETE THIS
 
         $(".crystals").append(crystal);
    
